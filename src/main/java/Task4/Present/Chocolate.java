@@ -14,4 +14,9 @@ public class Chocolate extends Sweets {
     public void setColour(String colour) {
         this.colour = colour;
     }
+
+    @Override
+    public String toString() {
+        return colour;
+    }
 }

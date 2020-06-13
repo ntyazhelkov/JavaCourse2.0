@@ -16,4 +16,9 @@ public class JellyBean extends Sweets {
     public void setTaste(String taste) {
         this.taste = taste;
     }
+
+    @Override
+    public String toString() {
+        return taste;
+    }
 }
