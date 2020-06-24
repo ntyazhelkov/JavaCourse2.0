@@ -32,22 +32,22 @@ public class ArrOperation {
 
     }
 
-            //здесь находим максимум сред положлительных чисел
+            //здесь находим максимум сред отрицательных чисел
     public static int getMax(int[] inputArray){
-        int maxValue = inputArray[0];
+        int maxValue = -10;
         for(int i=1;i < inputArray.length;i++){
-            if((inputArray[i] > maxValue) && (inputArray[i] > 0)){
-            maxValue = inputArray[i];
+            if((inputArray[i] > maxValue) & (inputArray[i] < 0)){
+                maxValue = inputArray[i];
         }
         }
         return maxValue;
     }
 
-        // здесь находим минимум среди отрицательных чисел
+        // здесь находим минимум среди  положительных чисел
     public static int getMin(int[] inputArray){
-        int minValue = inputArray[0];
+        int minValue = 10;
         for(int i=1;i<inputArray.length;i++){
-            if((inputArray[i] < minValue) & (inputArray[i] < 0)){
+            if((inputArray[i] < minValue) & (inputArray[i] > 0)){
                 minValue = inputArray[i];
             }
         }
