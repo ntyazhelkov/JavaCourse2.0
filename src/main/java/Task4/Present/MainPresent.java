@@ -25,14 +25,14 @@ public class MainPresent {
 
         System.out.println("Состав первого подарка:");
         for (Sweets present:present1) {
-            System.out.println(present.getName() + " " + present.toString());
+            System.out.println(present.getName() + " " + present.toString()+ " " + present.getWeight() + " гр. " + present.getPrice() + " р.");
         }
         System.out.println("Вес подарка: " + totalWeight1 + "\n" + "Стоимость подарка: " + totalCost1);
 
 
         System.out.println("\nСостав второго подарка:");
         for (Sweets present:present2) {
-            System.out.println(present.getName() + " " + present.toString());
+            System.out.println(present.getName() + " " + present.toString() + " " + present.getWeight() + " гр. " + present.getPrice() + " р.");
         }
         System.out.println("Вес подарка: " + totalWeight2 + "\n" + "Стоимость подарка: " + totalCost2);
 
