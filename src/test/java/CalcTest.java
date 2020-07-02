@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import task5.operations.Operations;
 
+
 public class CalcTest {
 
     @Test
