@@ -14,6 +14,7 @@ public class Calculator {
         System.out.println("Введите операцию!");
         String oType = scanner.next();
         Operations operResult = new Operations();
+        //Вывод на консоль результат работы метода
         System.out.println(operResult.calc(num1, num2, oType));
     }
 }

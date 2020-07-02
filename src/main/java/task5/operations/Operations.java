@@ -15,7 +15,7 @@ public class Operations {
                 throw new Exception("Делить на ноль нельзя");
         } else {
             throw new Exception("Operation type is incorrect!");
-//            System.out.println("Operation type is incorrect!");
+//            System.out.println("Operation type is incorrect! ");
         }
         return result;
     }
