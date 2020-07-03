@@ -9,7 +9,7 @@ public class Task6 {
         List<String> list = new ArrayList<String>();
         //Вычитываем строки из файла, разбиваем слова, отдельенные пробелами и записываем в массив
         //Записываем массив в список
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\user\\Documents\\test.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("test.txt"))) {
             while ((s = br.readLine()) != null) {
                 String str[] = s.split(" ");
                 for (String s1 : str) {
