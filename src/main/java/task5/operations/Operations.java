@@ -12,11 +12,13 @@ public class Operations {
         } else if ("/".equals(oper)) {
             result = num1 / num2;
             if (Double.isInfinite(result) || Double.isNaN(result))
-                throw new Exception("Делить на ноль нельзя");
+                throw new ArithmeticException("Делить на ноль нельзя");
         } else {
-            throw new Exception("Operation type is incorrect!");
+            throw new IncorrectOperationTypeExeption("Operation type is incorrect!");
 //            System.out.println("Operation type is incorrect! ");
         }
         return result;
     }
+
+
 }
